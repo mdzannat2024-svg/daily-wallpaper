@@ -1,0 +1,1 @@
+{"name":"Daily Wallpaper","short_name":"Wallpaper","description":"A brand new Antarctic wallpaper every day. Works offline.","start_url":"./","scope":"./","display":"standalone","background_color":"#06101f","theme_color":"#06101f","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
