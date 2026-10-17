@@ -210,5 +210,5 @@
   var lastKey = todayKey();
   document.addEventListener("visibilitychange", function () { if (!document.hidden && todayKey() !== lastKey) { lastKey = todayKey(); ensureToday(); } });
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
-  ensureToday();
+  ensureToday();window.__dw = { render: render, size: size };
 })();
